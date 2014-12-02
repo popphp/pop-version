@@ -13,7 +13,7 @@
 /**
  * @namespace
  */
-namespace Pop;
+namespace Pop\Version;
 
 /**
  * Version class
