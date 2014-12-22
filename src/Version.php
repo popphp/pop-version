@@ -41,7 +41,7 @@ class Version
      */
     public static function compareVersion($version)
     {
-        return version_compare($version, self::VERSION);
+        return version_compare(self::VERSION, $version);
     }
 
     /**
@@ -69,7 +69,7 @@ class Version
      */
     public static function isLatest()
     {
-        return (self::compareVersion(self::getLatest()) < 1);
+        return (self::compareVersion(self::getLatest()) >= 0);
     }
 
     /**
@@ -132,7 +132,8 @@ class Version
                 'ldap'     => (function_exists('ldap_connect')),
                 'mcrypt'   => (function_exists('mcrypt_encrypt')),
                 'memcache' => (class_exists('Memcache', false)),
-                'soap'     => (class_exists('SoapClient', false))
+                'soap'     => (class_exists('SoapClient', false)),
+                'yaml'     => (function_exists('yaml_parse'))
             ]
         ];
 
