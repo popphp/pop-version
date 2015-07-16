@@ -2,6 +2,7 @@ pop-version
 ===========
 
 [![Build Status](https://travis-ci.org/popphp/pop-version.svg?branch=master)](https://travis-ci.org/popphp/pop-version)
+[![Coverage Status](http://www.popphp.org/cc/coverage.php?comp=pop-version)](http://www.popphp.org/cc/pop-version/)
 
 OVERVIEW
 --------
