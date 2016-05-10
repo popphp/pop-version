@@ -2,12 +2,12 @@ pop-version
 ===========
 
 [![Build Status](https://travis-ci.org/popphp/pop-version.svg?branch=master)](https://travis-ci.org/popphp/pop-version)
-[![Coverage Status](http://www.popphp.org/cc/coverage.php?comp=pop-version)](http://www.popphp.org/cc/pop-version/)
+[![Coverage Status](http://cc.popphp.org/coverage.php?comp=pop-version)](http://cc.popphp.org/pop-version/)
 
 OVERVIEW
 --------
 `pop-version` is a simple component to determine and compare the latest version of Pop PHP,
-as well as evaluate the system environment and dependencies. 
+as well as evaluate the system environment and dependencies.
 
 `pop-version` is a component of the [Pop PHP Framework](http://www.popphp.org/).
 
@@ -50,66 +50,66 @@ That will return an array will values like this:
                 [latest] => 2.0.0
                 [compare] => 0
             )
-    
+
         [php] => Array
             (
                 [installed] => 5.4.32
                 [required] => 5.4.0
                 [compare] => 1
             )
-    
-        [windows] => 
+
+        [windows] =>
         [environment] => Array
             (
                 [apc] => 1
                 [archive] => Array
                     (
-                        [tar] => 
+                        [tar] =>
                         [rar] => 1
                         [zip] => 1
                         [bz2] => 1
                         [zlib] => 1
                     )
-    
+
                 [curl] => 1
                 [db] => Array
                     (
                         [mysqli] => 1
-                        [oracle] => 
+                        [oracle] =>
                         [pdo] => Array
                             (
                                 [mysql] => 1
                                 [pgsql] => 1
                                 [sqlite] => 1
-                                [sqlsrv] => 
+                                [sqlsrv] =>
                             )
-    
+
                         [pgsql] => 1
                         [sqlite] => 1
-                        [sqlsrv] => 
+                        [sqlsrv] =>
                     )
-    
+
                 [dom] => Array
                     (
                         [dom_document] => 1
                         [simple_xml] => 1
                     )
-    
+
                 [ftp] => 1
                 [geoip] => 1
                 [image] => Array
                     (
                         [gd] => 1
-                        [gmagick] => 
+                        [gmagick] =>
                         [imagick] => 1
                     )
-    
+
                 [ldap] => 1
                 [mcrypt] => 1
                 [memcache] => 1
                 [soap] => 1
                 [yaml] => 1
             )
-    
+
     )
 
