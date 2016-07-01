@@ -21,15 +21,15 @@ namespace Pop\Version;
  * @author     Nick Sagona, III <dev@nolainteractive.com>
  * @copyright  Copyright (c) 2009-2016 NOLA Interactive, LLC. (http://www.nolainteractive.com)
  * @license    http://www.popphp.org/license     New BSD License
- * @version    2.0.0
+ * @version    2.0.5
  */
 class Version
 {
 
     /**
-     * Current version
+     * Current version of the core popphp/popphp
      */
-    const VERSION = '2.0.0';
+    const VERSION = '2.0.5';
 
     /**
      * Compares the local version to the latest version available
