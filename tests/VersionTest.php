@@ -17,6 +17,11 @@ class VersionTest extends \PHPUnit_Framework_TestCase
         $this->assertGreaterThan(1, Version::getLatest());
     }
 
+    public function testGetLatestFromGitHub()
+    {
+        $this->assertGreaterThan(1, Version::getLatest(Version::VERSION_SOURCE_GITHUB));
+    }
+
     public function testIsLatest()
     {
         $this->assertTrue(Version::isLatest());
