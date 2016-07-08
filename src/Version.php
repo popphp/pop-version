@@ -139,6 +139,7 @@ class Version
             ],
             'windows' => (stripos(PHP_OS, 'win') !== false),
             'environment' => [
+                'apc'     => (function_exists('apc_add')),
                 'archive' => [
                     'tar'  => (class_exists('Archive_Tar')),
                     'zip'  => (class_exists('ZipArchive', false)),
@@ -171,6 +172,8 @@ class Version
                 ],
                 'ldap'     => (function_exists('ldap_connect')),
                 'mcrypt'   => (function_exists('mcrypt_encrypt')),
+                'memcache' => (class_exists('Memcache', false)),
+                'redis'    => (class_exists('Redis', false)),
                 'soap'     => (class_exists('SoapClient', false)),
                 'yaml'     => (function_exists('yaml_parse'))
             ]

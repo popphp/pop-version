@@ -65,7 +65,6 @@ That will return an array will values like this:
                 [archive] => Array
                     (
                         [tar] =>
-                        [rar] => 1
                         [zip] => 1
                         [bz2] => 1
                         [zlib] => 1
@@ -96,7 +95,6 @@ That will return an array will values like this:
                     )
 
                 [ftp] => 1
-                [geoip] => 1
                 [image] => Array
                     (
                         [gd] => 1
@@ -107,6 +105,7 @@ That will return an array will values like this:
                 [ldap] => 1
                 [mcrypt] => 1
                 [memcache] => 1
+                [redis] => 1
                 [soap] => 1
                 [yaml] => 1
             )
