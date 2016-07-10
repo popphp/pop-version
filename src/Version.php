@@ -170,12 +170,13 @@ class Version
                     'gmagick'  => (class_exists('Gmagick', false)),
                     'imagick'  => (class_exists('Imagick', false))
                 ],
-                'ldap'     => (function_exists('ldap_connect')),
-                'mcrypt'   => (function_exists('mcrypt_encrypt')),
-                'memcache' => (class_exists('Memcache', false)),
-                'redis'    => (class_exists('Redis', false)),
-                'soap'     => (class_exists('SoapClient', false)),
-                'yaml'     => (function_exists('yaml_parse'))
+                'ldap'      => (function_exists('ldap_connect')),
+                'mcrypt'    => (function_exists('mcrypt_encrypt')),
+                'memcache'  => (class_exists('Memcache', false)),
+                'memcached' => (class_exists('Memcached', false)),
+                'redis'     => (class_exists('Redis', false)),
+                'soap'      => (class_exists('SoapClient', false)),
+                'yaml'      => (function_exists('yaml_parse'))
             ]
         ];
 
