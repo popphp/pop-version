@@ -1,6 +1,10 @@
 pop-version
 ===========
 
+END OF LIFE
+-----------
+The `pop-version` component v3.0.0 is now end-of-life and will no longer be maintained.
+
 [![Build Status](https://travis-ci.org/popphp/pop-version.svg?branch=master)](https://travis-ci.org/popphp/pop-version)
 [![Coverage Status](http://cc.popphp.org/coverage.php?comp=pop-version)](http://cc.popphp.org/pop-version/)
 
